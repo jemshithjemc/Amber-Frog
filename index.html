@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Amber Frog</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="shadow"></div>
+		<div id="score" class="score">
+			<div class="title">SCORE</div>
+			<div class="num">0</div>
+		</div>
+		<div class="popup-container">
+			<div id="start" class="popup active">
+				<div class="title">AMBER FROG</div>
+				<div class="info">
+					<ul class="for-mouse">
+						<li>LEFT CLICK TO SHOOT MARBLE</li>
+						<li>PRESS "SPACE" TO SWITCH THE MARBLE COLOR</li>
+						<li>PRESS "ESC" TO STOP</li>
+					</ul>
+					<ul class="for-touch">
+						<li>TAP TO SHOOT MARBLE</li>
+						<li>TAP THE FROG TO SWITCH THE COLOR</li>
+						<li>TAP "II" TO STOP</li>
+					</ul>
+				</div>
+				<div class="button-container">
+					<div class="button">START</div>
+				</div>
+			</div>
+			<div id="stop" class="popup">
+				<div class="title">HELLO !</div>
+				<div class="info">
+					YOOOOU JUSSSSSST NEED A BRRRRRRREAK !
+				</div>
+				<div class="button-container">
+					<div id="start-btn" class="button">START</div>
+					<div id="reset-btn" class="button button-2">RESTART</div>
+				</div>
+			</div>
+			<div id="final" class="popup">
+				<div class="title">Result</div>
+				<div class="info">
+					YOU GOT <span class="num"></span> SCORES !
+				</div>
+				<div class="button-container">
+					<div class="button">RESTART</div>
+				</div>
+			</div>
+			<div class="mask"></div>
+		</div>
+		<button id="pause-btn" class="pause-button" type="button" aria-label="Pause"></button>
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>
