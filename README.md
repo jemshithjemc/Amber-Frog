@@ -2,6 +2,8 @@
 
 A Zuma-style marble shooter built with TypeScript, SCSS, and Vite. Aim the frog, shoot matching colors, and clear the spiral before marbles reach the end.
 
+**Play online:** [jemshithjemc.github.io/Amber-Frog](https://jemshithjemc.github.io/Amber-Frog/)
+
 ![Amber Frog gameplay](assets/screenshot.jpg)
 
 ## Controls
